@@ -1,0 +1,29 @@
+package co.grandcircus.WeatherApp.Model;
+
+public class WeatherObservation {
+	
+	private String elev;
+	private String latitude;
+	private String longitude;
+	
+	public String getElev() {
+		return elev;
+	}
+	public void setElev(String elev) {
+		this.elev = elev;
+	}
+	public String getLatitude() {
+		return latitude;
+	}
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+	public String getLongitude() {
+		return longitude;
+	}
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
+	}
+	
+	
+}

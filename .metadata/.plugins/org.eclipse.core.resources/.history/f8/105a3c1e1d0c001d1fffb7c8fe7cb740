@@ -1,0 +1,5 @@
+package co.grandcircus.WeatherApp.Service;
+
+public class WeatherApiService {
+
+}

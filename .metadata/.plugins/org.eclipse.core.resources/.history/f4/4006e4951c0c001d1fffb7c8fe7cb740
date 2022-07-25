@@ -1,0 +1,21 @@
+package co.grandcircus.WeatherApp.Controller;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class WeatherResponse {
+
+	private String operationalMode;
+	private String srsName;
+	private String creationDate;
+	private String creationDateLocal;
+	private String productionCenter;
+	private String credit;
+	private String moreInformation;
+	@JsonProperty("location")
+	private WeatherLocation locationInfo;
+	@JsonProperty("time")
+	private WeatherTime timeInfo;
+	@JsonProperty("currentobservation")
+	private WeatherObservation observation;
+
+}

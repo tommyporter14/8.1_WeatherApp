@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Location Results</title>
+</head>
+<body>
+	<h1>Here is the weather:</h1>
+	
+	<h4>${areaDescription}</h4>
+	<p> Elevation: ${elevation}</p>
+	<p>Latitude: ${latitude}</p>
+	<p>Longitude: ${longitude}</p>
+	<p>Temperature: ${temp}</p>
+	<p>Future Forecast: ${future}</p>
+</body>
+</html>
